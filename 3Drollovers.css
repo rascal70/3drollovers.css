@@ -35,7 +35,7 @@
      -moz-transition: 1s;
       -ms-transition: 1s;
        -o-transition: 1s;
-          transition: 1s;
+          transition: 0.25s;
 }
 .fade .rollover .back {
   opacity: 0;
@@ -43,7 +43,7 @@
      -moz-transition: 1s;
       -ms-transition: 1s;
        -o-transition: 1s;
-          transition: 1s;
+          transition: 0.25s;
 }
 .fade .rollover:hover .front, 
 .fade .rollover:focus .front {
@@ -78,7 +78,7 @@
      -moz-transition: 1s;
       -ms-transition: 1s;
        -o-transition: 1s;
-          transition: 1s;
+          transition: 0.25s;
 }
 .flip .front {
   -webkit-transform: translate3d(0,0,1px);
@@ -169,8 +169,8 @@
   -webkit-animation: batman 1s 2 alternate linear;
      -moz-animation: batman 1s 2 alternate linear;
       -ms-animation: batman 1s 2 alternate linear;
-       -o-animation: batman 1s 2 alternate linear;
-       animation: batman 1s 2 alternate linear;
+       -o-animation: batman 0.25s 2 alternate linear;
+       animation: batman 0.25s 2 alternate linear;
 }
 @-moz-keyframes batman {
   0% { -moz-transform: scale(1,1) rotateZ(0); }
