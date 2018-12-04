@@ -35,7 +35,7 @@
      -moz-transition: 1s;
       -ms-transition: 1s;
        -o-transition: 1s;
-          transition: 0.25s;
+          transition: 1s;
 }
 .fade .rollover .back {
   opacity: 0;
@@ -43,7 +43,7 @@
      -moz-transition: 1s;
       -ms-transition: 1s;
        -o-transition: 1s;
-          transition: 0.25s;
+          transition: 1s;
 }
 .fade .rollover:hover .front, 
 .fade .rollover:focus .front {
@@ -78,7 +78,7 @@
      -moz-transition: 1s;
       -ms-transition: 1s;
        -o-transition: 1s;
-          transition: 0.25s;
+          transition: 1s;
 }
 .flip .front {
   -webkit-transform: translate3d(0,0,1px);
